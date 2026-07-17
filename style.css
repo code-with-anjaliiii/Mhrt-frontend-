@@ -535,12 +535,7 @@ body{
         align-items: center;
         text-align: center;
     }
-    .links{
-        display: none;
-    }
-    .join{
-        display: block;
-    }
+    
     
     .logo{
         justify-content: center;
