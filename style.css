@@ -529,30 +529,17 @@ body{
     clear: both;
 }
 @media (max-width: 768px) {
-     .main, .card, .page, .site-footer, .footer-box { 
+    .navbar, .main, .links, .card, .page, .site-footer, .footer-box { 
         flex-direction: column; 
         gap: 20px;
         align-items: center;
         text-align: center;
     }
-    .navbar{
-        display: flex;
-        justify-content: center;
-       flex-wrap: wrap;
-        gap: 10px;
-    }
-    .links{
-        display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-        gap: 10px;
-
-    }
     .logo{
         justify-content: center;
     }
     .links a {
-         margin: 0; 
+         margin: 5px 0; 
         }
     .btn-purple-outline { 
         margin-left: 0;
@@ -578,6 +565,9 @@ body{
      }
     .footer-links, .small {
          padding-left: 0; align-items: center;
+         }
+         .real{
+            padding-left: 20px;
          }
         
 }
