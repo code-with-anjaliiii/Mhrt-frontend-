@@ -529,16 +529,15 @@ body{
     clear: both;
 }
 @media (max-width: 768px) {
-    .navbar, .main, .links, .card, .page, .site-footer, .footer-box { 
+    .navbar, .main, .link, .card, .page, .site-footer, .footer-box { 
         flex-direction: column; 
         gap: 20px;
         align-items: center;
         text-align: center;
     }
-
-    /* .logo{
+    .logo{
         justify-content: center;
-    } */
+    }
     .links a {
          margin: 5px 0; 
         }
