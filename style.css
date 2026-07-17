@@ -536,9 +536,9 @@ body{
         text-align: center;
     }
 
-    .logo{
+    /* .logo{
         justify-content: center;
-    }
+    } */
     .links a {
          margin: 5px 0; 
         }
