@@ -563,11 +563,11 @@ body{
     .text h1, .text-content h1, .content h1 { 
         font-size: 26px;
      }
-    .footer-links, .small {
+    .footer-links, .small,.real {
          padding-left: 0; align-items: center;
          }
-         .real{
+         /* .real{
             padding-left: 20px;
-         }
+         } */
         
 }
